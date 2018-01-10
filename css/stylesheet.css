@@ -1,0 +1,141 @@
+body {
+  padding-top: 64px; }
+
+.main-navigation {
+  border: none;
+  background: #4F4F4F; }
+  .main-navigation .items {
+    margin: 0 32px;
+    height: 64px; }
+    .main-navigation .items .item {
+      width: 120px; }
+      .main-navigation .items .item a {
+        padding: 22px;
+        font-size: 18px;
+        font-family: "Custom-Open-Sans";
+        color: #E3E3E3; }
+
+.main-body .name-section .name {
+  float: left;
+  width: 400px; }
+  .main-body .name-section .name h1 {
+    text-align: center;
+    color: #4F4F4F; }
+.main-body .name-section .block-line {
+  width: 100px;
+  height: 4px;
+  margin: 52px 24px;
+  background: #E3E3E3;
+  float: left; }
+.main-body .about-section .title {
+  border-bottom: 3px solid #4F4F4F;
+  font-family: "Custom-Open-Sans"; }
+  .main-body .about-section .title h1 {
+    margin-bottom: 4px; }
+.main-body .about-section .description p {
+  padding: 12px 0;
+  font-size: 18px;
+  color: #4F4F4F;
+  font-family: "Custom-Open-Sans"; }
+.main-body .skills-section .title {
+  border-bottom: 3px solid #4F4F4F;
+  font-family: "Custom-Open-Sans"; }
+  .main-body .skills-section .title h1 {
+    margin-bottom: 4px; }
+.main-body .skills-section .description .table {
+  margin: 18px 0; }
+  .main-body .skills-section .description .table .table-row .table-data {
+    width: 240px;
+    font-size: 16px;
+    font-family: "Custom-Open-Sans";
+    color: #4F4F4F;
+    border: none; }
+  .main-body .skills-section .description .table .table-row .table-bar {
+    border: none; }
+    .main-body .skills-section .description .table .table-row .table-bar .bar {
+      width: 700px;
+      height: 18px;
+      background: #E3E3E3;
+      border: 1px solid #4F4F4F;
+      border-radius: 12px; }
+  .main-body .skills-section .description .table .table-row:nth-child(1) .table-bar .bar .inner {
+    width: 400px;
+    height: 16px;
+    margin-left: -1px;
+    border-radius: 12px;
+    background: #4F4F4F; }
+  .main-body .skills-section .description .table .table-row:nth-child(2) .table-bar .bar .inner {
+    width: 500px;
+    height: 16px;
+    margin-left: -1px;
+    border-radius: 12px;
+    background: #4F4F4F; }
+  .main-body .skills-section .description .table .table-row:nth-child(3) .table-bar .bar .inner {
+    width: 600px;
+    height: 16px;
+    margin-left: -1px;
+    border-radius: 12px;
+    background: #4F4F4F; }
+  .main-body .skills-section .description .table .table-row:nth-child(4) .table-bar .bar .inner {
+    width: 600px;
+    height: 16px;
+    margin-left: -1px;
+    border-radius: 12px;
+    background: #4F4F4F; }
+  .main-body .skills-section .description .table .table-row:nth-child(5) .table-bar .bar .inner {
+    width: 450px;
+    height: 16px;
+    margin-left: -1px;
+    border-radius: 12px;
+    background: #4F4F4F; }
+.main-body .timeline-section {
+  padding-bottom: 48px; }
+  .main-body .timeline-section .title {
+    border-bottom: 3px solid #4F4F4F;
+    font-family: "Custom-Open-Sans"; }
+    .main-body .timeline-section .title h1 {
+      margin-bottom: 4px; }
+  .main-body .timeline-section .description {
+    margin: 24px;
+    font-family: "Custom-Open-Sans"; }
+    .main-body .timeline-section .description .time-navigator {
+      width: 16px;
+      height: 300px;
+      border-radius: 9px;
+      float: left;
+      position: relative;
+      background: #E3E3E3; }
+      .main-body .timeline-section .description .time-navigator .navigator {
+        left: -8px;
+        top: 32px;
+        width: 32px;
+        height: 32px;
+        border-radius: 18px;
+        position: absolute;
+        background: #4F4F4F; }
+    .main-body .timeline-section .description .time-body {
+      margin: 0px 48px;
+      padding: 34px 0; }
+      .main-body .timeline-section .description .time-body .time-date {
+        font-size: 22px;
+        color: black; }
+      .main-body .timeline-section .description .time-body .time-description {
+        margin: 12px 0;
+        font-size: 16px;
+        color: #4F4F4F; }
+
+.row:nth-child(1) {
+  width: 726px;
+  margin: 36px auto; }
+
+.row:not(:nth-child(1)) {
+  height: 350px; }
+
+@font-face {
+  font-family: "Custom-Open-Sans";
+  src: url("../fonts/Open_Sans/OpenSans-Regular.ttf"); }
+@media screen and (max-width: 768px) {
+  .main-navigation .items .item {
+    float: left; } }
+
+/*# sourceMappingURL=stylesheet.css.map */

@@ -1,0 +1,269 @@
+$default-grey-color: #4F4F4F;
+$default-white-color: #E3E3E3;
+
+body {
+	padding-top: 64px;
+}
+
+.main-navigation {
+	border: none;
+	background: $default-grey-color;
+	
+	.items {
+		margin: 0 32px;
+		height: 64px;
+		.item {
+			width: 120px;
+			a {
+				padding: 22px;
+				font-size: 18px;
+
+				font-family: "Custom-Open-Sans";
+				color: $default-white-color;
+			}
+		}
+	}
+}
+
+.main-body {
+	.name-section {
+		.name {
+			float: left;
+			width: 400px;
+			h1 {
+				text-align: center;
+				color: $default-grey-color;
+			}
+		}
+		.block-line {
+			width: 100px;
+			height: 4px;
+
+			margin: 52px 24px;
+
+			background: $default-white-color;
+			float: left;
+		}
+	}
+
+	.about-section {
+		.title {
+			border-bottom: 3px solid $default-grey-color;
+			font-family: "Custom-Open-Sans";
+
+			h1 {
+				margin-bottom: 4px;
+			}
+		}
+
+		.description {
+			p {
+				padding: 12px 0;
+				font-size: 18px;
+
+				color: $default-grey-color;
+				font-family: "Custom-Open-Sans";
+			}
+		}
+	}
+
+	.skills-section {
+		.title {
+			border-bottom: 3px solid $default-grey-color;
+			font-family: "Custom-Open-Sans";
+
+			h1 {
+				margin-bottom: 4px;
+			}
+		}
+
+		.description {
+
+			.table {
+				margin: 18px 0;
+				.table-row {
+					.table-data {
+						width: 240px;
+						font-size: 16px;
+						font-family: "Custom-Open-Sans";
+						
+						color: $default-grey-color;						
+						border: none;
+					}
+
+					.table-bar {
+
+						border: none;
+						.bar {
+							width: 700px;
+							height: 18px;
+
+							background: $default-white-color;
+							border: 1px solid $default-grey-color;
+							border-radius: 12px;
+						}
+					}
+				}
+
+				// Filling in the bars
+				.table-row:nth-child(1) {
+					.table-bar {
+						.bar {
+							.inner {
+								width: 400px;
+								height: 16px;
+
+								margin-left: -1px;
+								border-radius: 12px;
+
+								background: $default-grey-color;
+							}
+						}
+					}
+				}
+				.table-row:nth-child(2) {
+					.table-bar {
+						.bar {
+							.inner {
+								width: 500px;
+								height: 16px;
+
+								margin-left: -1px;
+								border-radius: 12px;
+
+								background: $default-grey-color;
+							}
+						}
+					}
+				}
+				.table-row:nth-child(3) {
+					.table-bar {
+						.bar {
+							.inner {
+								width: 600px;
+								height: 16px;
+
+								margin-left: -1px;
+								border-radius: 12px;
+
+								background: $default-grey-color;
+							}
+						}
+					}
+				}
+				.table-row:nth-child(4) {
+					.table-bar {
+						.bar {
+							.inner {
+								width: 600px;
+								height: 16px;
+
+								margin-left: -1px;
+								border-radius: 12px;
+
+								background: $default-grey-color;
+							}
+						}
+					}
+				}
+				.table-row:nth-child(5) {
+					.table-bar {
+						.bar {
+							.inner {
+								width: 450px;
+								height: 16px;
+
+								margin-left: -1px;
+								border-radius: 12px;
+
+								background: $default-grey-color;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.timeline-section {
+		padding-bottom: 48px;
+
+		.title {
+			border-bottom: 3px solid $default-grey-color;
+			font-family: "Custom-Open-Sans";
+
+			h1 {
+				margin-bottom: 4px;
+			}
+		}
+
+		.description {
+			margin: 24px;
+			.time-navigator {
+
+				width: 16px;
+				height: 300px;
+
+				border-radius: 9px;
+				float: left;
+
+				position: relative;
+				background: $default-white-color;
+				.navigator {
+					left: -8px;
+					top: 32px;
+
+					width: 32px;
+					height: 32px;
+
+					border-radius: 18px;
+
+					position: absolute;
+					background: $default-grey-color;
+				}
+			}
+
+			.time-body {
+				margin: 0px 48px;
+				padding: 34px 0;
+				.time-date {
+					font-size: 22px;
+					color: black;
+				}
+
+				.time-description {
+					margin: 12px 0;
+					font-size: 16px;
+					color: $default-grey-color;
+				}
+			}
+
+			font-family: "Custom-Open-Sans";
+		}
+	}
+}
+
+.row:nth-child(1) {
+	width: 726px;
+	margin: 36px auto;
+}
+
+// Increase row height
+.row:not(:nth-child(1)) {
+	height: 350px;
+}
+
+// Fonts
+@font-face {
+	font-family: "Custom-Open-Sans";
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+// Responsive Design
+@media screen and (max-width: 768px) {
+	.main-navigation {
+		.items {
+			.item { float: left; }
+		}
+	}
+}
