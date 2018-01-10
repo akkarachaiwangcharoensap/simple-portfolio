@@ -137,5 +137,18 @@ body {
 @media screen and (max-width: 768px) {
   .main-navigation .items .item {
     float: left; } }
+@media screen and (max-width: 992px) {
+  .skills-section .description .table .table-row .table-bar .bar {
+    width: 500px !important; }
+  .skills-section .description .table .table-row:nth-child(1) .table-bar .bar .inner {
+    width: 280px !important; }
+  .skills-section .description .table .table-row:nth-child(2) .table-bar .bar .inner {
+    width: 350px !important; }
+  .skills-section .description .table .table-row:nth-child(3) .table-bar .bar .inner {
+    width: 420px !important; }
+  .skills-section .description .table .table-row:nth-child(4) .table-bar .bar .inner {
+    width: 420px !important; }
+  .skills-section .description .table .table-row:nth-child(5) .table-bar .bar .inner {
+    width: 315px !important; } }
 
 /*# sourceMappingURL=stylesheet.css.map */
