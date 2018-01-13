@@ -6,4 +6,4 @@ CSS
 Bootstrap
 
 The demonstration can be viewed on Youtube
-[https://www.youtube.com/watch?v=KagPVTuC1ec](URL_to_wiki)
+[Aki Wiki | Simple Portfolio](https://www.youtube.com/watch?v=KagPVTuC1ec)
